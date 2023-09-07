@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Postavke.js" defer></script>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="icon" href="Logo.svg">
+      <link href="bootstrap-4.4.1.css" rel="stylesheet">  
+    <title>BlackSmithShop</title>
+</head>
+<body>
+   
+    <div class="k" id="navbar">
+        <ul id="navigacija">
+            <li id="pocetna"> 
+                <a href="http://127.0.0.1:5501/Marin_Juresko_Blacksmith.html" id="pocetna"><img src="../Logo1.svg" alt="Home" >  </a>
+            </li>
+
+            <div class="dropdown">
+                <li id="element">
+                    <a href="http://127.0.0.1:5501/Marin_Juresko_Store.html" class="active">Store</a>
+                </li>
+                    <div class="dropdown-content">
+                        <a href="http://127.0.0.1:5501/Marin_Juresko_Swords.html">Macevi</a>
+                        <a href="http://127.0.0.1:5501/Marin_Juresko_Axes.html">Sjekire</a>
+                        <a href="http://127.0.0.1:5501/Marin_Juresko_knifes.html">Nozevi</a>
+                    </div>
+            </div>
+            
+            <li id="element">
+                <a href="http://127.0.0.1:5501/Marin_Juresko_News.html">Novost</a> 
+            </li>
+            <li id="element">
+                <a href="http://127.0.0.1:5501/Marin_Juresko_About.html">O nama</a> 
+            </li>
+            <li id="element">
+                <a href="http://127.0.0.1:5501/Marin_Juresko_Kontakt.html">Kontakt</a> 
+            </li>
+            <li id="element">
+                <a href="http://127.0.0.1:5501/Marin_Juresko_Ostalo.html">Ostalo</a> 
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+    <div class="naslov">
+    <h2 id="naslov1">Store</h2>
+    </div>
+    <div class="popup" onclick="FFunction1()">
+        <div class="kontslika1">
+            <img src="../Zweihander.jpg" alt="img" id="slika2">   
+            <h3>Zweihänder</h3>
+             
+            </div>
+            <div class="popuptext" id="myPopup1">
+                <div class="popout">
+                    <img src="../Zweihander.jpg" alt="slika" id="slikapop">
+                    <p id="poptxt">Opis: Zweihänder (njemački, doslovno 'dvoručni'), također Doppelhänder ('dvoručni'), Beidhänder ('obojeručni'), Bihänder ili Bidenhänder, veliki je dvoručni mač koji se prvenstveno koristio tijekom 16. stoljeća</p>
+                    <p>Specifikacije: Puna dužina 148 cm,
+                        Dužina oštrice 118 cm,
+                        Duljina ručke 30 cm,
+                        Duljina glavnog križa 28 cm,
+                        Mali križni štitnik duljine 9 cm,
+                        Točka ravnoteže 1 cm od križnog štitnika,
+                        Težina: 3000 g,
+                        Debljina čelika 4 mm kaljeni opružni čelik</p> 
+                </div>
+            </div>
+        </div>
+    <br> <br>
+    <div class="popup" onclick="FFunction2()">
+        <div class="kontslika1">
+            <img src="../Horseaxe.webp" alt="img" id="slika2">   
+            <h3>Horseman's axe</h3>
+         
+            </div>
+            <div class="popuptext" id="myPopup2">
+                <div class="popout">
+                    <img src="../Horseaxe.webp" alt="slika" id="slikapop">
+                    <p id="poptxt">Opis: Ova sjekira se koristila kao oružje za jahače konja. Bila je jako efektivan u obaranju pješadije i drugih jahača</p>
+                    <p>Specifikacije: Weight:	1.4 kg
+                        Overall length: 50 cm
+                        Head height:	14 cm
+                        Grip length:	15c m
+                
+                </div>
+            </div>
+        </div>
+    <br> <br>
+    <div class="popup" onclick="FFunction3()">
+        <div class="kontslika1">
+            <img src="../Gladius.jpg" alt="img" id="slika2">   
+            <h3>Gladius</h3>
+         
+            </div>
+            <span class="popuptext" id="myPopup3">
+                <div class="popout">
+                    <img src="../Gladius.jpg" alt="slika" id="slikapop">
+                    <p id="poptxt">Opis: Gladius je latinska riječ koja se točno odnosi na vrstu mača koju je koristila drevna rimska pješadija počevši od 3. stoljeća prije Krista do 3. stoljeća nove ere. Jezično, unutar latinskog, riječ je također počela značiti "mač", bez obzira na vrstu koja se koristila</p>
+                    <p>Specifikacije: Masa 0,7–1 kg
+                        Duljina 60–85 cm
+                        Duljina oštrice 45–68 cm
+                        Širina 5–7 cm</p> 
+                </div>
+            </span>
+        </div>
+    <br> <br>
+    <div class="popup" onclick="FFunction4()">
+        <div class="kontslika1">
+            <img src="../Danska.jpg" alt="img" id="slika2">   
+            <h3>Danska sjekira</h3>
+          
+            </div>
+            <span class="popuptext" id="myPopup4">
+                <div class="popout">
+                    <img src="../Danska.jpg" alt="slika" id="slikapop">
+                    <p id="poptxt">Opis: Danska sjekira je rani tip bojne sjekire, prvenstveno korišten na prijelazu između europskog vikinškog doba i ranog srednjeg vijeka. Ostali nazivi za oružje su engleska duga sjekira, danska sjekira i sjekira s drškom.</p>
+                    <p>Specifikacije: Ukupna dužina 160 cm.
+                        Dužina oštrice 26 cm.
+                        Širina oštrice 24 cm.
+                        Težina 1,96 kg.</p> 
+                </div>
+            </span>
+        </div>
+    <br> <br>
+    <div class="popup" onclick="FFunction5()">
+    <div class="kontslika1">
+        <img src="../cinquedea.jpg" alt="img" id="slika2">   
+        <h3>Cinquedea</h3>
+       
+        </div>
+        <span class="popuptext" id="myPopup5">
+            <div class="popout">
+                <img src="../cinquedea.jpg" alt="slika" id="slikapop">
+                <p id="poptxt">Opis: cinquedea ili cinqueda je civilni kratki mač (ili dugi bodež). Razvijen je u sjevernoj Italiji i bio je popularan tijekom talijanske renesanse u 15. i ranom 16. stoljeću.
+                    </p>
+                <p>Specifikacije: duljina 30,3 cm, duljina oštrice 19,35 cm, širina 8,08 cm, širina oštrice 5,54 cm, težina 200 g</p> 
+            </div>
+        </span>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <br> <br>
+    <div class="popup" onclick="FFunction()">
+    <div class="kontslika1">
+        <img src="../Misericorde.jpeg" alt="img" id="slika2">   
+        <h3>Misericorde</h3>
+        </div>
+        <span class="popuptext" id="myPopup">
+            <div class="popout">
+                <img src="../Misericorde.jpeg" alt="slika" id="slikapop">
+                <p id="poptxt">Opis: Mizerikord (od francuske riječi miséricorde 'milosrđe') bio je dugačak,
+                     uzak nož koji se od srednjeg vijeka koristio za izvšavanje smrtnog udarca (milosrdni udar, otuda i naziv oštrice, izveden iz latinskog misericordia, "čin milost") teško ranjenom vitezu.
+                     Oštrica je bila dovoljno tanka da pogodi kroz otvore između oklopnih ploča.</p>
+                <p>Specifikacije: duljina bodeža: 46 cm. Širina štitnika: 4 cm. Širina oštrice na štitniku: oko 25 mm. Debljina oštrice na štitniku: oko 5 mm.</p> 
+            </div>
+        </span>
+    </div>
+
+</div>
+    <br> 
+<div class="footer">
+    <p id="foot"><a href="http://127.0.0.1:5501/About.html">O nama</a></p>
+    <p id="foot"> <a href="mailto:marin.juresco@gmail.com">Korisnicka podrska</a></p>
+    <p id="foot">Potrazite nas:</p>
+    <p id="dmreze"><a href="https://www.facebook.com/" target="_blank"> <img src="../Facebook.png" alt="Facebook" ></a> <a href="https://www.instagram.com/" target="_blank"> <img src="../Instagram.png" alt="Instagram"></a>  <a href="https://www.youtube.com/" target="_blank"> <img src="../Youtube.png" alt="Youtube" ></a></p>
+  </div>   
+  
+</body>
+</html>
